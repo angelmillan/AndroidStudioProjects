@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LaBellota</string>
+    <string name="mitexto2">Titulo de la App</string>
+    <string name="subtitle">Subtitulo</string>
+</resources>

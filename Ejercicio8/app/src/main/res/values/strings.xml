@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ejercicio8</string>
+    <string name="miTextView">Texto en movimiento</string>
+</resources>
