@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestTextView</string>
+    <string name="btnDelete">Delete</string>
+    <string name="miTextView">Rotar</string>
+    <string name="btnadd">add</string>
+    <string name="btnChangeTitle">Change Tittle</string>
+    <string name="btnChangeButton">Change Button</string>
+</resources>

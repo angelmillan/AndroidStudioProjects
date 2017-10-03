@@ -21,4 +21,37 @@
         android:shadowDx="5"
         />
 
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnDelete"
+            android:onClick="deleteAnimals"
+
+            />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnadd"
+            />
+        <Button
+            android:id="@+id/btnChangeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnChangeTitle"
+
+            />
+
+    <Button
+        android:id="@+id/btnChangeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnChangeButton"
+        />
+
+
+
+
 </LinearLayout>

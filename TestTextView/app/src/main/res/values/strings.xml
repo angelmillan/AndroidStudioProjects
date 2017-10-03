@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">TestTextView</string>
+
     <string name="miTextView">Rotate textView</string>
+    <string name="btnDelete">Borrar</string>
+    <string name="btnadd">Añadir</string>
+    <string name="btnChangeTitle">Cambiar Titulo</string>
+    <string name="btnChangeButton">Cambiar Boton</string>
 </resources>

@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.TypedValue;
 import android.view.View;
+import android.util.Log;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
@@ -12,16 +13,40 @@ import android.view.animation.AnimationUtils;
 import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.view.animation.TranslateAnimation;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class ActivityTextView extends AppCompatActivity {
+public class ActivityTextView extends AppCompatActivity implements View.OnClickListener {
     private Typeface fuente;
+    private  LinearLayout ll;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text_view);
-        fuente = Typeface.createFromAsset(getAssets(),"fonts/JandaAppleCobbler.ttf");
+        ll = (LinearLayout) findViewById(R.id.miLinearLayout);
+
+        Button btnAdd = (Button) findViewById(R.id.btnAdd);
+        btnAdd.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick (View view) {
+                addTextView(ll, "Prueba", 20);
+
+            }
+
+
+
+        });
+
+        Button btnChangeTitle = (Button) findViewById(R.id.btnChangeTitle);
+        Button btnCButton = (Button) findViewById(R.id.btnChangeButton);
+        btnCButton.setOnClickListener(this);
+        btnChangeTitle.setOnClickListener(this);
+
+
+
+        fuente = Typeface.createFromAsset(getAssets(), "fonts/JandaAppleCobbler.ttf");
 
         TextView text = (TextView) findViewById(R.id.mytextView);
         text.setTypeface(fuente);
@@ -31,27 +56,38 @@ public class ActivityTextView extends AppCompatActivity {
         //text.startAnimation(anim);
 
 
-       // text.setText(R.string.miTextView);
-       //  text.append("\nSegunda Linea\n");
+        // text.setText(R.string.miTextView);
+        //  text.append("\nSegunda Linea\n");
 
 
         // Se a
-        LinearLayout ll = (LinearLayout) findViewById(R.id.miLinearLayout);
-        String [] animales = {"Perro", "Gato", "Elefante", "Leon","Jirafa"};
+        ll = (LinearLayout) findViewById(R.id.miLinearLayout);
+        String[] animales = {"Perro", "Gato", "Elefante", "Leon", "Jirafa"};
 
-        for(int i=0; i<animales.length; i++)
-        addTextView(ll, animales[i],24+i*4);
+        for (int i = 0; i < animales.length; i++)
+            addTextView(ll, animales[i], 24 + i * 4);
 
 
         crearAnimacion(text);
 
 
-
-
-
-
-
     }
+
+        public void deleteAnimals (View views) {
+
+        ll = (LinearLayout)  findViewById(R.id.miLinearLayout);
+        int n = ll.getChildCount();
+        for(int i = n-1 ; i > 3 ; i--) {
+            Log.d("borrado",i+" "+n);
+            ll.removeViewAt(i);
+        }
+    }
+
+
+
+
+
+
 
     public void addTextView(LinearLayout ll, String texto, float size) {
         TextView tv = new TextView(this);
@@ -79,5 +115,11 @@ public class ActivityTextView extends AppCompatActivity {
         widget.startAnimation(anim);
 
 
+    }
+
+    @Override
+    public void onClick(View view) {
+        Button btn = (Button) findViewById(R.id.btnChangeButton);
+        Log.d("Pulsacion", (btn.getText().toString()));
     }
 }
