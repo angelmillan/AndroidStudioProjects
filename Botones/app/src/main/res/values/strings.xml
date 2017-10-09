@@ -3,4 +3,6 @@
     <string name="numero">8</string>
     <string name="inc">Incremento</string>
     <string name="dec">decrementar</string>
+    <string name="tbon">Boton On</string>
+    <string name="btoff">Boton Off</string>
 </resources>

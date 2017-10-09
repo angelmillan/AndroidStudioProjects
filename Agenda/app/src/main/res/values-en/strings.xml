@@ -4,4 +4,8 @@
     <string name="nombre">First Name</string>
     <string name="apellidos">Last name</string>
     <string name="direccion">Adress</string>
+    <string name="email">email</string>
+    <string name="edad">Age</string>
+    <string name="artistas">Artist</string>
+    <string name="artistasmultiples">Multiple Artist</string>
 </resources>

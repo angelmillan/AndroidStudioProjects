@@ -3,4 +3,8 @@
     <string name="nombre">Nombre</string>
     <string name="apellidos">Apellido</string>
     <string name="direccion">Dirección</string>
+    <string name="email">email</string>
+    <string name="edad">edad</string>
+    <string name="artistas">Artistas</string>
+    <string name="artistasmultiples">Artistas Multiples</string>
 </resources>

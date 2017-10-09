@@ -7,15 +7,24 @@ import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
 import android.view.View.OnLongClickListener;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 
-public class MainActivity extends AppCompatActivity implements OnClickListener, OnLongClickListener {
+public class MainActivity extends AppCompatActivity implements OnClickListener, OnLongClickListener, CompoundButton.OnCheckedChangeListener {
     private int numero = 0;
     private TextView tn;
+    private LinearLayout mainLayaut;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mainLayaut = (LinearLayout) findViewById(R.id.mainLayaut);
+
+        ToggleButton tGb = (ToggleButton) findViewById(R.id.btnTogle);
+        tGb.setOnCheckedChangeListener(this);
 
         tn = (TextView) findViewById(R.id.numero);
         tn.setText(numero+"");
@@ -88,5 +97,14 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
 
         }
         return false;
+    }
+
+    @Override
+    public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+        if (b) {
+            mainLayaut.setBackgroundColor(getResources().getColor(R.color.colorOn));
+        } else {
+            mainLayaut.setBackgroundColor(getResources().getColor(R.color.colorOff));
+        }
     }
 }

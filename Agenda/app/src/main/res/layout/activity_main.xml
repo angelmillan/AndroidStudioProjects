@@ -32,30 +32,65 @@
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/apellido"
+        android:id="@+id/edad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:enabled="true"
-        android:hint="@string/apellidos"
+        android:hint="@string/edad"
         android:textSize="24sp"
         android:textColor="@color/colortexto"
         android:textColorHint="@color/colorgris"
-        android:maxLength="50"
-        android:inputType="textPersonName"
+        android:inputType="number"
+
 
         />
 
     <EditText
-        android:id="@+id/direccion"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:enabled="true"
-        android:hint="@string/direccion"
+        android:hint="@string/email"
         android:textSize="24sp"
-        android:textColor="@color/colorgris"
+        android:textColor="@color/colortexto"
         android:textColorHint="@color/colorgris"
-        android:inputType="text"
+        android:inputType="textEmailAddress"
 
         />
+
+    <AutoCompleteTextView
+        android:id="@+id/artistas"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/artistas"
+        android:inputType="textAutoComplete"
+        android:completionThreshold="1"
+
+        />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/textomultiple"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/artistasmultiples"
+        android:inputType="textAutoComplete"
+        android:completionThreshold="1"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/artistas"
+
+
+
+
+
+    />
 
 </LinearLayout>
