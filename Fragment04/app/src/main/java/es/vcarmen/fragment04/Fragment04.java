@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class Fragment04 extends FragmentActivity {
     private Button btnMostrarDialogo;
@@ -25,6 +26,9 @@ public class Fragment04 extends FragmentActivity {
     }
 
     public void positivo() {
-
+        Toast.makeText(this, "Ok pulsado" , Toast.LENGTH_SHORT).show();
+    }
+    public void negativo() {
+        Toast.makeText(this, "Rechazar pulsado" , Toast.LENGTH_SHORT).show();
     }
 }
