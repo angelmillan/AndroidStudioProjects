@@ -30,6 +30,13 @@ public class Fragmento1 extends DialogFragment {
                         ((Fragment04)getActivity()).positivo();
                     }
                 })
+                .setNegativeButton("Rechazar", new DialogInterface.OnClickListener() {
+
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        ((Fragment04)getActivity()).negativo();
+                    }
+                })
                 .create();
     }
 
