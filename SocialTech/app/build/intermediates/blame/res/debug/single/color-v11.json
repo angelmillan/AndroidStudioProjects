@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/matinal/AndroidStudioProjects/SocialTech/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/matinal/.android/build-cache/165bb588aaaca979c648f641a3d113ddb27ca7ce/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/matinal/AndroidStudioProjects/SocialTech/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/matinal/.android/build-cache/165bb588aaaca979c648f641a3d113ddb27ca7ce/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]
