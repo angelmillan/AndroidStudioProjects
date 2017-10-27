@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.ListFragment;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 /**
@@ -56,5 +57,12 @@ public class Fragmento1 extends ListFragment {
     public void onDetach() {
         super.onDetach();
         mCallBacks = CallBackVacios;
+    }
+
+    @Override
+    public void onListItemClick(ListView l, View v, int position, long id) {
+        super.onListItemClick(l, v, position, id);
+        mCallBacks.onEntradasSeleccionadas(Contenido.ENT_LISTA.get(position).id);
+
     }
 }
