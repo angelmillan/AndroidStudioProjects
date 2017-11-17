@@ -4,10 +4,14 @@ import android.graphics.Color;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class Material06 extends AppCompatActivity {
     TabLayout tabLayout;
+    Button botonAdd;
+    Button botonRemove;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +19,8 @@ public class Material06 extends AppCompatActivity {
         setContentView(R.layout.activity_material06);
 
         tabLayout = (TabLayout) findViewById(R.id.tabLayout);
+        botonAdd = (Button) findViewById(R.id.addTab);
+        botonRemove = (Button) findViewById(R.id.removeTab);
 
         TabLayout.Tab primerTab = tabLayout.newTab();
         primerTab.setText("Tab 01");
@@ -52,6 +58,22 @@ public class Material06 extends AppCompatActivity {
 
             }
         });
+
+        botonAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+            if (tabLayout.getTabCount() < 6)
+                tabLayout.addTab(tabLayout.newTab().setText("Tab " + tabLayout.getTabCount()));
+            }
+        });
+
+        botonRemove.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
 
 
     }
