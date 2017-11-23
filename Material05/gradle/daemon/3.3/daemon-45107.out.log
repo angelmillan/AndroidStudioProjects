@@ -1,0 +1,1576 @@
+01:06:32.451 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [-Xmx1536m, -Dfile.encoding=UTF-8, -Duser.country=ES, -Duser.language=es, -Duser.variant]
+01:06:32.539 [INFO] [org.gradle.launcher.daemon.server.health.gc.GarbageCollectionMonitor] Unable to determine a garbage collection monitoring strategy for JVMStrategy{JetBrains s.r.o version 1.8.0_152-release}
+01:06:32.672 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=8a694506-0288-43a6-8f09-59034dac4484,javaHome=/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home,daemonRegistryDir=/Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/daemon,pid=45107,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=ES,-Duser.language=es,-Duser.variant]
+01:06:32.707 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface utun0
+01:06:32.708 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+01:06:32.709 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+01:06:32.710 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fd09:dbd0:f455:f9ae:25ba:6afa:2f40:26e1%utun0
+01:06:32.712 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:25ba:6afa:2f40:26e1%utun0
+01:06:32.712 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface utun0
+01:06:32.713 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface en1
+01:06:32.713 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+01:06:32.714 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+01:06:32.714 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:226:8ff:fedc:dd12%en1
+01:06:32.714 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.1.39
+01:06:32.714 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface en1
+01:06:32.715 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface lo0
+01:06:32.715 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+01:06:32.715 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+01:06:32.716 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Ignoring remote address on loopback interface /fe80:0:0:0:0:0:0:1%lo0
+01:06:32.716 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1%lo0
+01:06:32.716 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+01:06:32.717 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface lo0
+01:06:32.722 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [87c6a4eb-fe50-4a48-a2db-1a7f1327c6f6 port:57871, addresses:[/0:0:0:0:0:0:0:1%lo0, /127.0.0.1]].
+01:06:32.729 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Thu Nov 23 01:06:32 CET 2017, with address: [87c6a4eb-fe50-4a48-a2db-1a7f1327c6f6 port:57871, addresses:[/0:0:0:0:0:0:0:1%lo0, /127.0.0.1]]
+01:06:32.730 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [87c6a4eb-fe50-4a48-a2db-1a7f1327c6f6 port:57871, addresses:[/0:0:0:0:0:0:0:1%lo0, /127.0.0.1]]
+01:06:32.731 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=8a694506-0288-43a6-8f09-59034dac4484,javaHome=/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home,daemonRegistryDir=/Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/daemon,pid=45107,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=ES,-Duser.language=es,-Duser.variant]
+01:06:32.734 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [87c6a4eb-fe50-4a48-a2db-1a7f1327c6f6 port:57871, addresses:[/0:0:0:0:0:0:0:1%lo0, /127.0.0.1]], context: DefaultDaemonContext[uid=8a694506-0288-43a6-8f09-59034dac4484,javaHome=/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home,daemonRegistryDir=/Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/daemon,pid=45107,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=ES,-Duser.language=es,-Duser.variant]
+01:06:32.747 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+01:06:32.750 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:06:32.764 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:06:32.765 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+01:06:32.769 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+01:06:32.806 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:57872 to /127.0.0.1:57871.
+01:06:33.226 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received class org.gradle.launcher.daemon.protocol.Build
+01:06:33.226 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received non-IO message from client: Build{id=23753cfe-56d9-4667-bdea-4148a472291f.1, currentDir=/Volumes/MacinTresSSD/AndroidStudioProjects/Material07}
+01:06:33.227 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=23753cfe-56d9-4667-bdea-4148a472291f.1, currentDir=/Volumes/MacinTresSSD/AndroidStudioProjects/Material07}.
+01:06:33.227 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=23753cfe-56d9-4667-bdea-4148a472291f.1, currentDir=/Volumes/MacinTresSSD/AndroidStudioProjects/Material07} with connection: socket connection from /127.0.0.1:57871 to /127.0.0.1:57872.
+01:06:33.230 [ERROR] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=23753cfe-56d9-4667-bdea-4148a472291f.1, currentDir=/Volumes/MacinTresSSD/AndroidStudioProjects/Material07}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:57871 to /127.0.0.1:57872] after 0.0 minutes of idle
+01:06:33.232 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [87c6a4eb-fe50-4a48-a2db-1a7f1327c6f6 port:57871, addresses:[/0:0:0:0:0:0:0:1%lo0, /127.0.0.1]]
+01:06:33.232 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [87c6a4eb-fe50-4a48-a2db-1a7f1327c6f6 port:57871, addresses:[/0:0:0:0:0:0:0:1%lo0, /127.0.0.1]]
+01:06:33.233 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+01:06:33.234 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:06:33.241 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:06:33.242 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+01:06:33.243 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=23753cfe-56d9-4667-bdea-4148a472291f.1, currentDir=/Volumes/MacinTresSSD/AndroidStudioProjects/Material07}. Dispatching build started information...
+01:06:33.244 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+01:06:33.250 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, USER=angelmillanmiralles, TMPDIR=/var/folders/qn/6njh1vp97p98vp4nc90wblcw0000gn/T/, SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.LV2JXlxR8y/Listeners, DISPLAY=/private/tmp/com.apple.launchd.n7QrZX8Cw4/org.macosforge.xquartz:0, XPC_FLAGS=0x0, __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x8, Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.n0Pt4YfIrS/Render, LOGNAME=angelmillanmiralles, XPC_SERVICE_NAME=com.google.android.studio.896992, HOME=/Users/angelmillanmiralles}
+01:06:33.259 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+01:06:33.260 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 45107). The daemon log file: /Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/daemon/3.3/daemon-45107.out.log
+01:06:33.262 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 1,4 GB]
+01:06:33.268 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+01:06:33.269 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=8a694506-0288-43a6-8f09-59034dac4484,javaHome=/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home,daemonRegistryDir=/Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/daemon,pid=45107,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=ES,-Duser.language=es,-Duser.variant]
+01:06:33.281 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received class org.gradle.launcher.daemon.protocol.CloseInput
+01:06:33.281 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@7bfe7d09
+01:06:33.282 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+01:06:33.282 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+01:06:33.311 [INFO] [org.gradle.process.internal.DefaultExecHandle] Starting process 'command '/usr/bin/vm_stat''. Working directory: /Volumes/MacinTresSSD/AndroidStudioProjects/Material07 Command: /usr/bin/vm_stat 
+01:06:33.311 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Environment for process 'command '/usr/bin/vm_stat'': {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.LV2JXlxR8y/Listeners, DISPLAY=/private/tmp/com.apple.launchd.n7QrZX8Cw4/org.macosforge.xquartz:0, SHELL=/bin/bash, XPC_FLAGS=0x0, __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x8, Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.n0Pt4YfIrS/Render, LOGNAME=angelmillanmiralles, USER=angelmillanmiralles, XPC_SERVICE_NAME=com.google.android.studio.896992, HOME=/Users/angelmillanmiralles, TMPDIR=/var/folders/qn/6njh1vp97p98vp4nc90wblcw0000gn/T/}
+01:06:33.311 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Changing state to: STARTING
+01:06:33.315 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Waiting until process started: command '/usr/bin/vm_stat'.
+01:06:33.333 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Changing state to: STARTED
+01:06:33.334 [DEBUG] [org.gradle.process.internal.ExecHandleRunner] waiting until streams are handled...
+01:06:33.341 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Changing state to: SUCCEEDED
+01:06:33.342 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Process 'command '/usr/bin/vm_stat'' finished with exit value 0 (state: SUCCEEDED)
+01:06:33.343 [INFO] [org.gradle.process.internal.DefaultExecHandle] Successfully started process 'command '/usr/bin/vm_stat''
+01:06:33.345 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+01:06:33.348 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+01:06:33.349 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+01:06:33.844 [INFO] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for plugin-use-metadata, path /Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/caches/3.3/plugin-resolution/plugin-use-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@14b0ba36
+01:06:33.847 [INFO] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for client-status, path /Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/caches/3.3/plugin-resolution/client-status.bin, access org.gradle.cache.internal.DefaultCacheAccess@14b0ba36
+Download https://jcenter.bintray.com/com/android/tools/build/gradle/2.3.3/gradle-2.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder/2.3.3/builder-2.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint/25.3.3/lint-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3.pom
+Download https://jcenter.bintray.com/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/sdklib/25.3.3/sdklib-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/common/25.3.3/common-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/dvlib/25.3.3/dvlib-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/repository/25.3.3/repository-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/annotations/25.3.3/annotations-25.3.3.pom
+Download https://jcenter.bintray.com/com/android/tools/build/gradle/2.3.3/gradle-2.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder/2.3.3/builder-2.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint/25.3.3/lint-25.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3.jar
+Download https://jcenter.bintray.com/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/sdklib/25.3.3/sdklib-25.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/common/25.3.3/common-25.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3.jar
+Download https://jcenter.bintray.com/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/dvlib/25.3.3/dvlib-25.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/repository/25.3.3/repository-25.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3.jar
+Download https://jcenter.bintray.com/com/android/tools/annotations/25.3.3/annotations-25.3.3.jar
+Incremental java compilation is an incubating feature.
+Download https://jcenter.bintray.com/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
+Download https://jcenter.bintray.com/net/java/jvnet-parent/3/jvnet-parent-3.pom
+Download https://jcenter.bintray.com/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar
+
+CONFIGURE SUCCESSFUL
+
+Total time: 34.03 secs
+Download https://jcenter.bintray.com/com/android/tools/build/gradle/2.3.3/gradle-2.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder/2.3.3/builder-2.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint/25.3.3/lint-25.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/sdklib/25.3.3/sdklib-25.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/common/25.3.3/common-25.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/dvlib/25.3.3/dvlib-25.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/repository/25.3.3/repository-25.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3-sources.jar
+Download https://jcenter.bintray.com/com/android/tools/annotations/25.3.3/annotations-25.3.3-sources.jar
+01:07:12.196 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache task history cache (/Volumes/MacinTresSSD/AndroidStudioProjects/Material07/.gradle/3.3/taskArtifacts) was closed 0 times.
+01:07:12.197 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+01:07:12.198 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 4, disk reads: 8 (avg: 0.002 secs, total: 0.017 secs)
+01:07:12.198 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.001 secs
+01:07:12.199 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (/Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/caches/3.3/plugin-resolution) was closed 0 times.
+01:07:12.460 [DEBUG] [org.gradle.process.internal.daemon.WorkerDaemonManager] Stopping 0 worker daemon(s).
+01:07:12.460 [INFO] [org.gradle.process.internal.daemon.WorkerDaemonManager] Stopped 0 worker daemon(s).
+01:07:12.461 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Generated Gradle JARs cache (/Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/caches/3.3/generated-gradle-jars) was closed 0 times.
+01:07:12.461 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for artifact cache (/Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/caches/modules-2)
+01:07:12.462 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (/Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/caches/modules-2/metadata-2.23/artifact-at-repository.bin)
+01:07:12.462 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/caches/modules-2/metadata-2.23/module-metadata.bin)
+01:07:12.462 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (/Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/caches/modules-2/metadata-2.23/module-artifacts.bin)
+01:07:12.462 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-url.bin (/Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/caches/modules-2/metadata-2.23/artifact-at-url.bin)
+01:07:12.463 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (/Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/caches/modules-2/metadata-2.23/module-versions.bin)
+01:07:12.465 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/Volumes/MacinTresSSD/AndroidStudioProjects/Material05/gradle/caches/modules-2).
+01:07:12.466 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+01:07:12.486 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=23753cfe-56d9-4667-bdea-4148a472291f.1, currentDir=/Volumes/MacinTresSSD/AndroidStudioProjects/Material07}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:57871 to /127.0.0.1:57872]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@433ed0c5 with state Busy
+01:07:12.486 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=23753cfe-56d9-4667-bdea-4148a472291f.1, currentDir=/Volumes/MacinTresSSD/AndroidStudioProjects/Material07}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:57871 to /127.0.0.1:57872]
+01:07:12.486 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+01:07:12.486 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [87c6a4eb-fe50-4a48-a2db-1a7f1327c6f6 port:57871, addresses:[/0:0:0:0:0:0:0:1%lo0, /127.0.0.1]]
+01:07:12.486 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [87c6a4eb-fe50-4a48-a2db-1a7f1327c6f6 port:57871, addresses:[/0:0:0:0:0:0:0:1%lo0, /127.0.0.1]]
+01:07:12.487 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+01:07:12.487 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:12.488 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:07:12.488 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+01:07:12.488 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.tooling.internal.provider.BuildActionResult@716f8b26]
+01:07:12.488 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 11: dispatching class org.gradle.launcher.daemon.protocol.Success
+01:07:12.513 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=23753cfe-56d9-4667-bdea-4148a472291f.1, currentDir=/Volumes/MacinTresSSD/AndroidStudioProjects/Material07}
+01:07:12.529 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received class org.gradle.launcher.daemon.protocol.Finished
+01:07:12.529 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@31e90403
+01:07:12.529 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@31e90403
+01:07:12.529 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 11: stopping connection
+01:07:12.531 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+01:07:12.532 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received null
+01:07:12.532 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received end-of-input from client.
+01:07:12.534 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 11: stopping connection
+01:07:13.349 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:07:13.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:07:13.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:13.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:07:13.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:07:13.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:13.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:07:23.348 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:07:23.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:07:23.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:23.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:07:23.350 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 10864 milliseconds. Expiring.
+01:07:23.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:07:23.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:23.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:07:23.352 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:07:23.352 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:23.352 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:07:33.347 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:07:33.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:07:33.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:33.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:07:33.349 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 20864 milliseconds. Expiring.
+01:07:33.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:07:33.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:33.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:07:33.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:07:33.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:33.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:07:43.349 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:07:43.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:07:43.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:43.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:07:43.351 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 30866 milliseconds. Expiring.
+01:07:43.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:07:43.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:43.352 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:07:43.352 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:07:43.352 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:43.352 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:07:53.348 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:07:53.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:07:53.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:53.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:07:53.350 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 40865 milliseconds. Expiring.
+01:07:53.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:07:53.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:53.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:07:53.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:07:53.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:07:53.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:03.346 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:08:03.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:03.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:03.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:03.347 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 50863 milliseconds. Expiring.
+01:08:03.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:03.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:03.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:03.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:03.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:03.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:13.349 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:08:13.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:13.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:13.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:13.350 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 60866 milliseconds. Expiring.
+01:08:13.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:13.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:13.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:13.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:13.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:13.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:23.344 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:08:23.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:23.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:23.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:23.347 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 70862 milliseconds. Expiring.
+01:08:23.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:23.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:23.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:23.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:23.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:23.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:33.346 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:08:33.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:33.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:33.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:33.348 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 80864 milliseconds. Expiring.
+01:08:33.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:33.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:33.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:33.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:33.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:33.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:43.345 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:08:43.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:43.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:43.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:43.347 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 90864 milliseconds. Expiring.
+01:08:43.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:43.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:43.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:43.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:43.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:43.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:53.343 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:08:53.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:53.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:53.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:53.345 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 100862 milliseconds. Expiring.
+01:08:53.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:53.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:53.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:08:53.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:08:53.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:08:53.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:03.347 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:09:03.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:03.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:03.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:03.348 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 110865 milliseconds. Expiring.
+01:09:03.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:03.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:03.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:03.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:03.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:03.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:13.343 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:09:13.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:13.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:13.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:13.347 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 120864 milliseconds. Expiring.
+01:09:13.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:13.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:13.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:13.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:13.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:13.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:23.345 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:09:23.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:23.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:23.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:23.347 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 130864 milliseconds. Expiring.
+01:09:23.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:23.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:23.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:23.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:23.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:23.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:33.343 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:09:33.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:33.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:33.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:33.345 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 140863 milliseconds. Expiring.
+01:09:33.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:33.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:33.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:33.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:33.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:33.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:43.342 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:09:43.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:43.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:43.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:43.344 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 150862 milliseconds. Expiring.
+01:09:43.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:43.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:43.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:43.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:43.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:43.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:53.342 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:09:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:53.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:53.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:53.343 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 160861 milliseconds. Expiring.
+01:09:53.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:53.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:53.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:09:53.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:09:53.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:09:53.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:03.345 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:10:03.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:03.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:03.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:03.348 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 170867 milliseconds. Expiring.
+01:10:03.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:03.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:03.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:03.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:03.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:03.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:13.344 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:10:13.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:13.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:13.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:13.346 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 180865 milliseconds. Expiring.
+01:10:13.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:13.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:13.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:13.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:13.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:13.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:23.343 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:10:23.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:23.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:23.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:23.345 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 190864 milliseconds. Expiring.
+01:10:23.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:23.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:23.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:23.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:23.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:23.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:33.341 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:10:33.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:33.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:33.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:33.347 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 200866 milliseconds. Expiring.
+01:10:33.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:33.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:33.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:33.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:33.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:33.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:43.345 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:10:43.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:43.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:43.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:43.347 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 210866 milliseconds. Expiring.
+01:10:43.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:43.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:43.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:43.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:43.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:43.348 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:53.340 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:10:53.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:53.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:53.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:53.342 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 220861 milliseconds. Expiring.
+01:10:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:10:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:10:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:10:53.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:03.348 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:11:03.354 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:03.354 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:03.355 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:03.355 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 230876 milliseconds. Expiring.
+01:11:03.355 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:03.356 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:03.359 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:03.359 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:03.360 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:03.360 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:13.342 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:11:13.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:13.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:13.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:13.344 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 240864 milliseconds. Expiring.
+01:11:13.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:13.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:13.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:13.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:13.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:13.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:23.344 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:11:23.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:23.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:23.350 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:23.350 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 250871 milliseconds. Expiring.
+01:11:23.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:23.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:23.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:23.352 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:23.352 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:23.352 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:33.341 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:11:33.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:33.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:33.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:33.343 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 260864 milliseconds. Expiring.
+01:11:33.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:33.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:33.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:33.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:33.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:33.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:43.340 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:11:43.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:43.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:43.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:43.343 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 270865 milliseconds. Expiring.
+01:11:43.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:43.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:43.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:43.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:43.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:43.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:53.338 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:11:53.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:53.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:53.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:53.341 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 280863 milliseconds. Expiring.
+01:11:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:11:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:11:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:11:53.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:03.338 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:12:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:03.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:03.340 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 290862 milliseconds. Expiring.
+01:12:03.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:03.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:03.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:03.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:03.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:03.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:13.342 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:12:13.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:13.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:13.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:13.346 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 300868 milliseconds. Expiring.
+01:12:13.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:13.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:13.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:13.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:13.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:13.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:23.341 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:12:23.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:23.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:23.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:23.342 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 310865 milliseconds. Expiring.
+01:12:23.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:23.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:23.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:23.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:23.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:23.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:33.340 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:12:33.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:33.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:33.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:33.342 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 320865 milliseconds. Expiring.
+01:12:33.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:33.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:33.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:33.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:33.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:33.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:43.341 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:12:43.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:43.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:43.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:43.343 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 330866 milliseconds. Expiring.
+01:12:43.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:43.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:43.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:43.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:43.346 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:43.347 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:53.342 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:12:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:53.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:53.343 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 340867 milliseconds. Expiring.
+01:12:53.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:53.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:53.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:12:53.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:12:53.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:12:53.345 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:03.338 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:13:03.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:03.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:03.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:03.339 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 350862 milliseconds. Expiring.
+01:13:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:13.340 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:13:13.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:13.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:13.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:13.342 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 360866 milliseconds. Expiring.
+01:13:13.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:13.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:13.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:13.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:13.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:13.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:23.341 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:13:23.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:23.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:23.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:23.342 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 370866 milliseconds. Expiring.
+01:13:23.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:23.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:23.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:23.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:23.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:23.344 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:33.340 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:13:33.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:33.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:33.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:33.342 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 380867 milliseconds. Expiring.
+01:13:33.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:33.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:33.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:33.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:33.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:33.343 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:43.339 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:13:43.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:43.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:43.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:43.340 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 390865 milliseconds. Expiring.
+01:13:43.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:43.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:43.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:43.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:43.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:43.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:53.338 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:13:53.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:53.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:53.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:53.340 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 400865 milliseconds. Expiring.
+01:13:53.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:53.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:53.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:13:53.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:13:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:13:53.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:03.337 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:14:03.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:03.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:03.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:03.338 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 410864 milliseconds. Expiring.
+01:14:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:03.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:13.339 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:14:13.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:13.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:13.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:13.340 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 420866 milliseconds. Expiring.
+01:14:13.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:13.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:13.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:13.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:13.341 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:13.342 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:23.337 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:14:23.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:23.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:23.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:23.338 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 430864 milliseconds. Expiring.
+01:14:23.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:23.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:23.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:23.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:23.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:23.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:33.335 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:14:33.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:33.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:33.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:33.338 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 440864 milliseconds. Expiring.
+01:14:33.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:33.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:33.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:33.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:33.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:33.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:43.335 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:14:43.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:43.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:43.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:43.337 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 450864 milliseconds. Expiring.
+01:14:43.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:43.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:43.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:43.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:43.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:43.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:53.334 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:14:53.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:53.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:53.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:53.336 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 460863 milliseconds. Expiring.
+01:14:53.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:53.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:53.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:14:53.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:14:53.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:14:53.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:03.334 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:15:03.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:03.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:03.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:03.336 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 470863 milliseconds. Expiring.
+01:15:03.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:03.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:03.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:03.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:03.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:03.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:13.336 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:15:13.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:13.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:13.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:13.338 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 480865 milliseconds. Expiring.
+01:15:13.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:13.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:13.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:13.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:13.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:13.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:23.337 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:15:23.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:23.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:23.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:23.339 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 490867 milliseconds. Expiring.
+01:15:23.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:23.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:23.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:23.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:23.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:23.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:33.337 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:15:33.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:33.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:33.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:33.338 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 500866 milliseconds. Expiring.
+01:15:33.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:33.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:33.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:33.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:33.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:33.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:43.337 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:15:43.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:43.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:43.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:43.339 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 510867 milliseconds. Expiring.
+01:15:43.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:43.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:43.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:43.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:43.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:43.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:53.336 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:15:53.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:53.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:53.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:53.338 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 520866 milliseconds. Expiring.
+01:15:53.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:53.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:53.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:15:53.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:15:53.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:15:53.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:03.332 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:16:03.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:03.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:03.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:03.334 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 530862 milliseconds. Expiring.
+01:16:03.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:03.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:03.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:03.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:03.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:03.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:13.335 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:16:13.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:13.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:13.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:13.337 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 540866 milliseconds. Expiring.
+01:16:13.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:13.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:13.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:13.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:13.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:13.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:23.331 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:16:23.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:23.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:23.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:23.338 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 550867 milliseconds. Expiring.
+01:16:23.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:23.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:23.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:23.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:23.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:23.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:33.335 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:16:33.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:33.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:33.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:33.337 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 560867 milliseconds. Expiring.
+01:16:33.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:33.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:33.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:33.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:33.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:33.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:43.333 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:16:43.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:43.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:43.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:43.334 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 570864 milliseconds. Expiring.
+01:16:43.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:43.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:43.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:43.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:43.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:43.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:53.331 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:16:53.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:53.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:53.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:53.333 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 580863 milliseconds. Expiring.
+01:16:53.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:53.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:53.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:16:53.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:16:53.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:16:53.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:03.330 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:17:03.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:03.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:03.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:03.332 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 590862 milliseconds. Expiring.
+01:17:03.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:03.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:03.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:03.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:03.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:03.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:13.329 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:17:13.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:13.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:13.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:13.331 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 600862 milliseconds. Expiring.
+01:17:13.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:13.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:13.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:13.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:13.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:13.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:23.333 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:17:23.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:23.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:23.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:23.337 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 610868 milliseconds. Expiring.
+01:17:23.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:23.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:23.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:23.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:23.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:23.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:33.329 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:17:33.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:33.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:33.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:33.331 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 620862 milliseconds. Expiring.
+01:17:33.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:33.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:33.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:33.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:33.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:33.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:43.331 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:17:43.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:43.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:43.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:43.333 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 630864 milliseconds. Expiring.
+01:17:43.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:43.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:43.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:43.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:43.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:43.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:53.329 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:17:53.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:53.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:53.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:53.330 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 640862 milliseconds. Expiring.
+01:17:53.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:53.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:53.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:17:53.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:17:53.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:17:53.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:03.333 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:18:03.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:03.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:03.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:03.334 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 650866 milliseconds. Expiring.
+01:18:03.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:03.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:03.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:03.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:03.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:03.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:13.330 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:18:13.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:13.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:13.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:13.332 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 660864 milliseconds. Expiring.
+01:18:13.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:13.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:13.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:13.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:13.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:13.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:23.332 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:18:23.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:23.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:23.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:23.334 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 670866 milliseconds. Expiring.
+01:18:23.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:23.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:23.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:23.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:23.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:23.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:33.329 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:18:33.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:33.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:33.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:33.330 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 680863 milliseconds. Expiring.
+01:18:33.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:33.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:33.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:33.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:33.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:33.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:43.328 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:18:43.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:43.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:43.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:43.332 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 690865 milliseconds. Expiring.
+01:18:43.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:43.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:43.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:43.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:43.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:43.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:53.330 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:18:53.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:53.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:53.336 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:53.336 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 700870 milliseconds. Expiring.
+01:18:53.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:53.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:53.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:18:53.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:18:53.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:18:53.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:03.329 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:19:03.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:03.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:03.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:03.332 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 710866 milliseconds. Expiring.
+01:19:03.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:03.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:03.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:03.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:03.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:03.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:13.326 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:19:13.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:13.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:13.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:13.329 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 720863 milliseconds. Expiring.
+01:19:13.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:13.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:13.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:13.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:13.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:13.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:23.326 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:19:23.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:23.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:23.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:23.332 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 730867 milliseconds. Expiring.
+01:19:23.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:23.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:23.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:23.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:23.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:23.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:33.328 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:19:33.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:33.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:33.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:33.329 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 740864 milliseconds. Expiring.
+01:19:33.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:33.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:33.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:33.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:33.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:33.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:43.326 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:19:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:43.327 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 750862 milliseconds. Expiring.
+01:19:43.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:43.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:43.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:43.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:43.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:43.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:53.326 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:19:53.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:53.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:53.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:53.327 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 760862 milliseconds. Expiring.
+01:19:53.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:53.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:53.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:19:53.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:19:53.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:19:53.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:03.327 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:20:03.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:03.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:03.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:03.328 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 770863 milliseconds. Expiring.
+01:20:03.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:03.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:03.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:03.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:03.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:03.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:13.329 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:20:13.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:13.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:13.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:13.331 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 780867 milliseconds. Expiring.
+01:20:13.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:13.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:13.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:13.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:13.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:13.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:23.328 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:20:23.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:23.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:23.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:23.329 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 790865 milliseconds. Expiring.
+01:20:23.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:23.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:23.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:23.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:23.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:23.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:33.328 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:20:33.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:33.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:33.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:33.329 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 800866 milliseconds. Expiring.
+01:20:33.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:33.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:33.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:33.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:33.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:33.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:43.326 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:20:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:43.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:43.328 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 810865 milliseconds. Expiring.
+01:20:43.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:43.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:43.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:43.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:43.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:43.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:53.327 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:20:53.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:53.332 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:53.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:53.333 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 820870 milliseconds. Expiring.
+01:20:53.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:53.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:53.333 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:20:53.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:20:53.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:20:53.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:03.325 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:21:03.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:03.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:03.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:03.326 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 830864 milliseconds. Expiring.
+01:21:03.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:03.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:03.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:03.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:03.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:03.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:13.325 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:21:13.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:13.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:13.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:13.327 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 840865 milliseconds. Expiring.
+01:21:13.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:13.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:13.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:13.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:13.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:13.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:23.324 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:21:23.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:23.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:23.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:23.326 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 850863 milliseconds. Expiring.
+01:21:23.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:23.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:23.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:23.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:23.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:23.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:33.324 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:21:33.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:33.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:33.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:33.325 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 860863 milliseconds. Expiring.
+01:21:33.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:33.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:33.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:33.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:33.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:33.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:43.326 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:21:43.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:43.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:43.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:43.327 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 870865 milliseconds. Expiring.
+01:21:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:53.324 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:21:53.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:53.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:53.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:53.325 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 880864 milliseconds. Expiring.
+01:21:53.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:53.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:53.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:21:53.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:21:53.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:21:53.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:03.322 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:22:03.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:03.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:03.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:03.325 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 890864 milliseconds. Expiring.
+01:22:03.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:03.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:03.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:03.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:03.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:03.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:13.321 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:22:13.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:13.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:13.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:13.327 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 900866 milliseconds. Expiring.
+01:22:13.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:13.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:13.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:13.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:13.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:13.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:23.321 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:22:23.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:23.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:23.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:23.322 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 910862 milliseconds. Expiring.
+01:22:23.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:23.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:23.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:23.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:23.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:23.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:33.325 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:22:33.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:33.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:33.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:33.326 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 920866 milliseconds. Expiring.
+01:22:33.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:33.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:33.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:33.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:33.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:33.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:43.321 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:22:43.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:43.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:43.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:43.327 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 930867 milliseconds. Expiring.
+01:22:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:43.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:43.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:43.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:53.324 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:22:53.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:53.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:53.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:53.325 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 940866 milliseconds. Expiring.
+01:22:53.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:53.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:53.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:22:53.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:22:53.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:22:53.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:03.322 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:23:03.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:03.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:03.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:03.323 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 950864 milliseconds. Expiring.
+01:23:03.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:03.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:03.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:03.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:03.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:03.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:13.324 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:23:13.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:13.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:13.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:13.325 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 960866 milliseconds. Expiring.
+01:23:13.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:13.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:13.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:13.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:13.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:13.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:23.320 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:23:23.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:23.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:23.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:23.322 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 970863 milliseconds. Expiring.
+01:23:23.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:23.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:23.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:23.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:23.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:23.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:33.319 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:23:33.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:33.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:33.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:33.324 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 980866 milliseconds. Expiring.
+01:23:33.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:33.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:33.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:33.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:33.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:33.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:43.320 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:23:43.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:43.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:43.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:43.321 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 990863 milliseconds. Expiring.
+01:23:43.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:43.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:43.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:43.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:43.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:43.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:53.323 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:23:53.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:53.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:53.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:53.329 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1000871 milliseconds. Expiring.
+01:23:53.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:53.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:53.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:23:53.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:23:53.330 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:23:53.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:03.322 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:24:03.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:03.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:03.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:03.323 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1010865 milliseconds. Expiring.
+01:24:03.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:03.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:03.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:03.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:03.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:03.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:13.318 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:24:13.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:13.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:13.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:13.319 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1020862 milliseconds. Expiring.
+01:24:13.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:13.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:13.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:13.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:13.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:13.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:23.318 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:24:23.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:23.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:23.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:23.319 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1030862 milliseconds. Expiring.
+01:24:23.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:23.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:23.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:23.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:23.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:23.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:33.318 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:24:33.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:33.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:33.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:33.320 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1040863 milliseconds. Expiring.
+01:24:33.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:33.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:33.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:33.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:33.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:33.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:43.321 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:24:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:43.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:43.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:43.328 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1050871 milliseconds. Expiring.
+01:24:43.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:43.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:43.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:43.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:43.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:43.329 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:53.319 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:24:53.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:53.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:53.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:53.320 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1060864 milliseconds. Expiring.
+01:24:53.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:53.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:53.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:24:53.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:24:53.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:24:53.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:03.318 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:25:03.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:03.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:03.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:03.319 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1070863 milliseconds. Expiring.
+01:25:03.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:03.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:03.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:03.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:03.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:03.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:13.318 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:25:13.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:13.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:13.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:13.319 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1080863 milliseconds. Expiring.
+01:25:13.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:13.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:13.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:13.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:13.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:13.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:23.318 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:25:23.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:23.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:23.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:23.319 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1090864 milliseconds. Expiring.
+01:25:23.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:23.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:23.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:23.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:23.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:23.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:33.318 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:25:33.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:33.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:33.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:33.319 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1100864 milliseconds. Expiring.
+01:25:33.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:33.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:33.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:33.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:33.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:33.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:43.316 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:25:43.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:43.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:43.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:43.319 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1110864 milliseconds. Expiring.
+01:25:43.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:43.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:43.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:43.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:43.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:43.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:53.315 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:25:53.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:53.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:53.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:53.321 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1120866 milliseconds. Expiring.
+01:25:53.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:53.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:53.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:25:53.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:25:53.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:25:53.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:03.315 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:26:03.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:03.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:03.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:03.316 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1130862 milliseconds. Expiring.
+01:26:03.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:03.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:03.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:03.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:03.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:03.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:13.314 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:26:13.314 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:13.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:13.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:13.315 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1140861 milliseconds. Expiring.
+01:26:13.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:13.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:13.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:13.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:13.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:13.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:23.314 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:26:23.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:23.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:23.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:23.316 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1150862 milliseconds. Expiring.
+01:26:23.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:23.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:23.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:23.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:23.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:23.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:33.318 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:26:33.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:33.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:33.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:33.319 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1160866 milliseconds. Expiring.
+01:26:33.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:33.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:33.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:33.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:33.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:33.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:43.318 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:26:43.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:43.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:43.321 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:43.323 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1170870 milliseconds. Expiring.
+01:26:43.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:43.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:43.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:43.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:43.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:43.324 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:53.315 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:26:53.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:53.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:53.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:53.316 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1180864 milliseconds. Expiring.
+01:26:53.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:53.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:53.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:26:53.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:26:53.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:26:53.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:03.312 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:27:03.313 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:03.313 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:03.313 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:03.313 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1190861 milliseconds. Expiring.
+01:27:03.313 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:03.314 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:03.314 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:03.314 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:03.314 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:03.314 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:13.317 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:27:13.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:13.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:13.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:13.318 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1200866 milliseconds. Expiring.
+01:27:13.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:13.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:13.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:13.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:13.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:13.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:23.316 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:27:23.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:23.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:23.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:23.318 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1210866 milliseconds. Expiring.
+01:27:23.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:23.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:23.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:23.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:23.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:23.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:33.316 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:27:33.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:33.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:33.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:33.317 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1220865 milliseconds. Expiring.
+01:27:33.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:33.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:33.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:33.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:33.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:33.318 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:43.316 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:27:43.319 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:43.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:43.320 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:43.322 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1230870 milliseconds. Expiring.
+01:27:43.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:43.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:43.322 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:43.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:43.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:43.323 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:53.311 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:27:53.312 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:53.312 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:53.312 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:53.312 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1240861 milliseconds. Expiring.
+01:27:53.312 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:53.312 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:53.312 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:27:53.313 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:27:53.313 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:27:53.313 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:28:03.314 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:28:03.314 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:28:03.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:28:03.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:28:03.315 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1250865 milliseconds. Expiring.
+01:28:03.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:28:03.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:28:03.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:28:03.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:28:03.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:28:03.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:28:13.313 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+01:28:13.313 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:28:13.314 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:28:13.314 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:28:13.314 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 1260864 milliseconds. Expiring.
+01:28:13.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:28:13.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:28:13.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+01:28:13.315 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+01:28:13.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+01:28:13.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
