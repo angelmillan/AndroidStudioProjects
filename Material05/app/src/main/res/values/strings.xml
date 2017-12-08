@@ -1,11 +1,8 @@
 <resources>
     <string name="app_name">Material05</string>
-    <string name="cadena_barra_nuevo">Añadir</string>
-    <string name="cadena_barra_editar">Editar</string>
-    <string name="cadena_barra_configurar">Configurar</string>
-    <string name="cadena_barra_ayuda">Ayuda</string>
-    <string name="cadena_barra_acerca">Acerca de ...</string>
-
-
-
+    <string name="cadena_barra_nuevo">AÑADIR</string>
+    <string name="cadena_barra_editar">EDITAR</string>
+    <string name="cadena_barra_configurar">CONFIGURAR</string>
+    <string name="cadena_barra_ayuda">AYUDA</string>
+    <string name="cadena_barra_acerca">ACERCA DE...</string>
 </resources>

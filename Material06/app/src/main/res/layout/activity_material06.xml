@@ -1,49 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:id="@+id/caja"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
     android:orientation="vertical"
     tools:context="es.vcarmen.material06.Material06">
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:elevation="6dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:background="#cccccc"
+        android:elevation="6dp"
         android:minHeight="?attr/actionBarSize"
-        app:tabMode="fixed"
         app:tabGravity="fill"
+        app:tabMode="fixed"
         />
+
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="6"
-        >
-
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/addTab"
-        android:text="Añadir Tab"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="5"
         />
 
     <Button
-        android:id="@+id/removeTab"
-        android:text="Borrar Tab"
+        android:id="@+id/botonAdd"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:onClick="addTab"
         android:layout_weight="1"
-
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:text="Añadir Tabs"
         />
 
+    <Button
+        android:id="@+id/botonQuitar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:text="Quitar Tabs"
+        />
 
 </LinearLayout>

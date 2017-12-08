@@ -16,30 +16,34 @@ import java.util.regex.Pattern;
 public class Material01 extends AppCompatActivity {
 
     private TextInputLayout controlNombre;
-    private EditText campoNombre;
     private TextInputLayout controlCorreo;
-    private EditText campoCorreo;
     private TextInputLayout controlTelefono;
+
+    private EditText campoNombre;
+    private EditText campoCorreo;
     private EditText campoTelefono;
 
     private Button botonAceptar;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_material01);
+        initialize();
+    }
 
-        campoNombre     = (EditText) findViewById(R.id.campo_nombre);
-        controlNombre   = (TextInputLayout) findViewById(R.id.control_nombre);
-        campoCorreo     = (EditText) findViewById(R.id.campo_correo);
-        controlCorreo   = (TextInputLayout) findViewById(R.id.control_correo);
-        botonAceptar    = (Button) findViewById(R.id.boton_aceptar);
-        campoTelefono   = (EditText) findViewById(R.id.campo_telefono);
+    private void initialize(){
+        controlNombre = (TextInputLayout) findViewById(R.id.controlNombre);
+        controlCorreo = (TextInputLayout) findViewById(R.id.control_correo);
         controlTelefono = (TextInputLayout) findViewById(R.id.control_telefono);
+        campoNombre = (EditText) findViewById(R.id.campo_nombre);
+        campoCorreo = (EditText) findViewById(R.id.campo_correo);
+        campoTelefono = (EditText) findViewById(R.id.campo_telefono);
 
-        campoNombre.addTextChangedListener(new TextWatcher(){
+        botonAceptar = (Button) findViewById(R.id.botonAceptar);
+
+
+        campoNombre.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
@@ -47,7 +51,7 @@ public class Material01 extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-            esNombreValido(String.valueOf(charSequence));
+                controlNombre.setError(null);
             }
 
             @Override
@@ -55,7 +59,6 @@ public class Material01 extends AppCompatActivity {
 
             }
         });
-
         campoCorreo.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -64,7 +67,7 @@ public class Material01 extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-            esCorreoValido(String.valueOf(charSequence));
+                esCorreoValido(String.valueOf(charSequence));
             }
 
             @Override
@@ -72,7 +75,6 @@ public class Material01 extends AppCompatActivity {
 
             }
         });
-
         campoTelefono.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -81,7 +83,8 @@ public class Material01 extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-            controlTelefono.setError(null);
+                //esTelefonoValido(String.valueOf(charSequence));
+                controlTelefono.setError(null);
             }
 
             @Override
@@ -89,19 +92,16 @@ public class Material01 extends AppCompatActivity {
 
             }
         });
-
         botonAceptar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 validarDatos();
             }
         });
-
-
     }
 
-    private boolean esNombreValido (String nombre) {
-        Pattern patron = Pattern.compile("^[a-zA-Z ]+$");
+    private boolean esNombreValido(String nombre){
+        Pattern patron = Pattern.compile("^[a-zA-Z]+$");
         if(!patron.matcher(nombre).matches() || nombre.length()>30){
             controlNombre.setError("ERROR EN NOMBRE");
             return false;
@@ -111,7 +111,7 @@ public class Material01 extends AppCompatActivity {
         return true;
     }
 
-    private boolean esCorreoValido (String correo) {
+    private boolean esCorreoValido(String correo){
         if(!Patterns.EMAIL_ADDRESS.matcher(correo).matches()){
             controlCorreo.setError("ERROR EN CORREO");
             return false;
@@ -121,27 +121,25 @@ public class Material01 extends AppCompatActivity {
         return true;
     }
 
-    private boolean esTelefonoValido (String telefono) {
+    private boolean esTelefonoValido(String telefono){
         if(!Patterns.PHONE.matcher(telefono).matches()){
-            controlTelefono.setError("ERROR EN TELÉFONO");
+            controlTelefono.setError("ERROR EN TELEFONO");
             return false;
-        } else {
+        }else{
             controlTelefono.setError(null);
         }
         return true;
     }
 
-    private void validarDatos() {
-
+    private void validarDatos(){
         String nombre = controlNombre.getEditText().getText().toString();
         String correo = controlCorreo.getEditText().getText().toString();
         String telefono = controlTelefono.getEditText().getText().toString();
-
         boolean a = esNombreValido(nombre);
         boolean b = esCorreoValido(correo);
         boolean c = esTelefonoValido(telefono);
-
-
-        if (a&&b&&c) Toast.makeText(this, "REGRISTRO CORRECTO", Toast.LENGTH_SHORT).show();
+        if(a&&b&&c){
+            Toast.makeText(this, "El registro es CORRECTO", Toast.LENGTH_SHORT).show();
+        }
     }
 }

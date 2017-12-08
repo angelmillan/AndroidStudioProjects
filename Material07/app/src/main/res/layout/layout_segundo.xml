@@ -4,14 +4,11 @@
     android:background="#a0ff99"
     android:layout_height="match_parent">
 
-    <TextView
-        android:gravity="center"
+
+
+    <WebView
+        android:id="@+id/webview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="SEGUNDO FRAGMENTO"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:textColor="@color/textoFragmento"
-        />
+        android:layout_height="match_parent"></WebView>
 
 </LinearLayout>

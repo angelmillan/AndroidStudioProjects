@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Material04"
+    android:background="#dd4997b6"
+    android:id="@+id/coordinatorLayout"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical"
+        >
+        
+        <Button
+            android:elevation="10dp"
+            android:id="@+id/btnSimple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SnackBar Simple"
+            android:textAllCaps="false"
+            android:typeface="monospace"
+            android:textSize="20sp"
+
+            android:textColor="@android:color/holo_orange_dark"
+            />
+
+        <Button
+            android:id="@+id/btnInteractivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SnackBar con CallBack"
+            android:textAllCaps="false"
+            android:typeface="monospace"
+            android:textSize="20sp"
+
+            android:textColor="@android:color/holo_orange_dark"
+            />
+
+        <Button
+            android:id="@+id/btnPersonalizado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Color Personalizado"
+            android:textAllCaps="false"
+            android:typeface="monospace"
+            android:textSize="20sp"
+
+            android:textColor="@android:color/holo_orange_dark"
+            />
+        
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_margin="16dp"
+        android:layout_gravity="end|bottom"
+        android:src="@android:drawable/ic_dialog_email"
+        app:backgroundTint="@android:color/holo_orange_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</android.support.design.widget.CoordinatorLayout>
+
+
